@@ -12,6 +12,15 @@ print(a)
 # 浮点
 b = 1.2e2
 print(b)
+# 除法
+b1 = 10 / 3
+print(f"b1:{b1}")
+# 整除
+b2 = 10 // 3
+print(f"b2:{b2}")
+# 余数
+b3 = 10 % 3
+print(f"b3:{b3}")
 
 # 转义
 c = 'I\'m ok'
@@ -42,3 +51,10 @@ print(w + e)
 
 # 重复字符串
 print("." * 10)
+
+# 布尔
+bo1 = True and False
+print(bo1)
+
+bo2 = True or False
+print(bo2)
